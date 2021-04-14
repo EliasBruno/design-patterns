@@ -1,9 +1,11 @@
-package Builder;
+package builder;
+
+import java.math.BigDecimal;
 
 public class Produto {
 	
 	private String nome;
-	private Float valor;
+	private BigDecimal valor;
 	private Integer quantidade;
 	public String getNome() {
 		return nome;
@@ -11,10 +13,10 @@ public class Produto {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public Float getValor() {
+	public BigDecimal getValor() {
 		return valor;
 	}
-	public void setValor(Float valor) {
+	public void setValor(BigDecimal valor) {
 		this.valor = valor;
 	}
 	public Integer getQuantidade() {
